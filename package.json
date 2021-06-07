@@ -1,0 +1,23 @@
+{
+  "name": "noorden_p2",
+  "version": "1.0.0",
+  "description": "Noorden",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juliana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  }
+}
